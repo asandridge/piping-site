@@ -57,10 +57,10 @@ li a:hover {
 
 .hero {
     background: url('ireland_magic.jpg') no-repeat center center fixed; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 600px;
     box-shadow: 0px 3px 8px #2a2a2a;
     /*filter: brightness(75%);*/
@@ -68,30 +68,30 @@ li a:hover {
 
 .hero2 {
     background: url('castle.jpg') no-repeat center center fixed; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 600px;
     box-shadow: 0px 3px 8px #2a2a2a;
 }
 
 .hero3 {
     background: url('stocks3.jpg') no-repeat center center fixed; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 600px;
     box-shadow: 0px 3px 8px #2a2a2a;
 }
 
 .hero4 {
     background: url('bellows6.jpg') no-repeat center center fixed; 
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 600px;
     box-shadow: 0px 3px 8px #2a2a2a;
 }
