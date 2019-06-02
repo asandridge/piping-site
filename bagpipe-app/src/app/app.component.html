@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+	<div class = "hero">
+		<h1>Home</h1>
+		<ul>
+      <li><span class="navBar" [ngClass]="{'activeNav': tab==0}" style="position: absolute; right: 100; bottom: 0;" (click)="changeTab(0)">Home</span></li>
+      <li><span class="navBar" [ngClass]="{'activeNav': tab==1}" style="position: absolute; right: 75; bottom: 0;" (click)="changeTab(1)">Highland Pipes</span></li>
+      <li><span class="navBar" [ngClass]="{'activeNav': tab==2}" style="position: absolute; right: 50; bottom: 0;" (click)="changeTab(2)">Uilleann Pipes</span></li>
+      <li><span class="navBar" [ngClass]="{'activeNav': tab==3}" style="position: absolute; right: 25; bottom: 0;" (click)="changeTab(3)">Contact</span></li>
+		</ul>
+  </div>
+  <!--
+  <app-reporting-form *ngIf="tab==0"></app-reporting-form>
+    <app-jira-tests *ngIf="tab==1"></app-jira-tests>
+    <app-chalk-tests *ngIf="tab==2"></app-chalk-tests>
+    <app-help-pages *ngIf="tab==3"></app-help-pages>
+  <hr>
+  -->
+  <h1 *ngIf="tab==0">"TAB 0</h1>
+  <h1 *ngIf="tab==1">"TAB 1</h1>
+  <h1 *ngIf="tab==2">"TAB 2</h1>
+  <h1 *ngIf="tab==3">"TAB 3</h1>
+	<p style = "font-size:100%;"> All rights reserved - Alex Sandridge 2019</p>
+</body>
+</html>
