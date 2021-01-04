@@ -1,2 +1,5 @@
 # asandridge.github.io
-This is my personal website I built to get some coding practice. It also serves as my professional bagpiping website.
+
+One of my first websites, which I developed to practice my front end skills.
+
+I play the bagpipes and this serves as my professional site.
