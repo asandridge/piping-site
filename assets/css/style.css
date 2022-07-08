@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('/assets/images/https://fonts.googleapis.com/css?family=Inknut+Antiqua');
+@import url('/assets/images/https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    /*background-color: garamond;*/
     font-family: cochin, serif;
-    text-align: center;  
-    background: url('fresh_snow.png') no-repeat center center fixed; 
+    text-align: center;
+    background: url('/assets/images/fresh_snow.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,15 +12,15 @@ body {
 }
 
 h1 {
-    color:black; 
-    font-size:300%; 
-    position: absolute; 
-    top:75px; 
+    color:black;
+    font-size:300%;
+    position: absolute;
+    top:75px;
     left:105px;
 }
 
 h2 {
-    color: black; 
+    color: black;
     font-size: 200%;
 }
 
@@ -30,7 +29,7 @@ h3 {
 }
 
 p {
-    color: black; 
+    color: black;
     font-size: 150%;
 }
 
@@ -56,18 +55,17 @@ li a:hover {
 }
 
 .hero {
-    background: url('ireland_magic.jpg') no-repeat center center fixed; 
+    background: url('/assets/images/ireland_magic.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 600px;
     box-shadow: 0px 3px 8px #2a2a2a;
-    /*filter: brightness(75%);*/
 }
 
 .hero2 {
-    background: url('castle.jpg') no-repeat center center fixed; 
+    background: url('/assets/images/castle.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,7 +75,7 @@ li a:hover {
 }
 
 .hero3 {
-    background: url('stocks3.jpg') no-repeat center center fixed; 
+    background: url('/assets/images/stocks3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,40 +85,12 @@ li a:hover {
 }
 
 .hero4 {
-    background: url('bellows6.jpg') no-repeat center center fixed; 
+    background: url('/assets/images/bellows6.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 600px;
-    box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-.hero11 {
-    background: url('ireland_magic.jpg'); 
-    background-size: cover;
-    height: 625px;
-    box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-.hero22 {
-    background: url('castle_m.jpg');
-    background-size: cover;
-    height: 625px;
-    box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-.hero33 {
-    background: url('stocks3.jpg');
-    background-size: cover;
-    height: 625px;
-    box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-.hero44 {
-    background: url('bellows6.jpg');
-    background-size: cover;
-    height: 625px;
     box-shadow: 0px 3px 8px #2a2a2a;
 }
 
