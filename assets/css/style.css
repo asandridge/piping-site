@@ -1,5 +1,5 @@
-@import url('/assets/images/https://fonts.googleapis.com/css?family=Inknut+Antiqua');
-@import url('/assets/images/https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
     font-family: cochin, serif;
@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
-    color:black;
-    font-size:300%;
+    color: black;
+    font-size: 300%;
     position: absolute;
-    top:75px;
-    left:105px;
+    top: 75px;
+    left: 105px;
 }
 
 h2 {
@@ -25,7 +25,11 @@ h2 {
 }
 
 h3 {
-    color:black; font-size:150%; position: absolute; top:140px;left:105px;
+    color: black;
+    font-size: 150%;
+    position: absolute;
+    top: 140px;
+    left: 105px;
 }
 
 p {
@@ -33,59 +37,46 @@ p {
     font-size: 150%;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display:inline;
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 550px;
+    right: 10px;
+    width: 100%;
 }
 
-li a {
+.nav-item {
     color: lightblue;
     padding: 10px 15px;
     text-decoration: none;
-    font-size:140%;
-    float:right;
+    font-size: 140%;
+    float: right;
     background: rgba(0, 0, 0, 0.7);
 }
 
-li a:hover {
+.nav-item:hover {
     background: rgba(0, 0, 0, 1);
     color: white;
 }
 
-.hero {
+.hero-image-1 {
     background: url('/assets/images/ireland_magic.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    box-shadow: 0px 3px 8px #2a2a2a;
 }
 
-.hero2 {
-    background: url('/assets/images/castle.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    box-shadow: 0px 3px 8px #2a2a2a;
-}
-
-.hero3 {
+.hero-image-2 {
     background: url('/assets/images/stocks3.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 600px;
-    box-shadow: 0px 3px 8px #2a2a2a;
 }
 
-.hero4 {
+.hero-image-3 {
     background: url('/assets/images/bellows6.jpg') no-repeat center center fixed;
+}
+
+.hero-image-4 {
+    background: url('/assets/images/castle.jpg') no-repeat center center fixed;
+}
+
+.hero {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,8 +86,8 @@ li a:hover {
 }
 
 .pad {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .frosty {

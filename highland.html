@@ -9,21 +9,29 @@
 
 	<title>Highand Pipes</title>
 
+	<script>
+		window.onload = function() {
+			const thisYear = new Date().getFullYear();
+			document.getElementById('all-rights-reserved').innerHTML = document.getElementById('all-rights-reserved').innerHTML + thisYear;
+
+			const hero = document.getElementsByClassName('hero')[0];
+			hero.classList.add("hero-image-2");
+		};
+	</script>
+
 </head>
 
 <body>
-	<div class="hero3">
+	<div class="hero">
 		<h1>Highland Pipes</h1>
 		<h3>Scottish Pipes</h3>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<ul>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="uilleann.html">Uilleann Pipes</a></li>
-			<li><a href="highland.html">Highland Pipes</a></li>
-			<li><a href="/">Home</a></li>
-		</ul>
+		<div class="nav">
+			<a class="nav-item" href="/">Home</a>
+			<a class="nav-item" href="highland.html">Highland Pipes</a>
+			<a class="nav-item" href="uilleann.html">Uilleann Pipes</a>
+			<a class="nav-item" href="contact.html">Contact</a>
+		</div>
 	</div>
-	<h2>What are "regular" bagpipes?</h2>
 	<p class="pad">The best known of all bagpipes, the Great Highland Bagpipes of Scotland are what most people think of
 		when they hear the word "bagpipes". They are played standing up with the pipes resting on the shoulder, and are most
 		often seen in weddings and funerals, as well as many a Saint Patrick's Day parade.<br><br>Most bagpipe performances
@@ -37,8 +45,9 @@
 		allowfullscreen></iframe>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/E7aMBnnSGJE" frameborder="0"
 		allowfullscreen></iframe>
+
 	<hr>
-	<p style="font-size:100%;"> All rights reserved - Alex Sandridge 2017</p>
+	<p id="all-rights-reserved" style="font-size:100%;">All rights reserved - Alex Sandridge </p>
 </body>
 
 </html>
